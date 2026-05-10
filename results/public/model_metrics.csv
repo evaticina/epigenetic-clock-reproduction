@@ -1,0 +1,2 @@
+MAE,RMSE,R2,Correlation,alpha,l1_ratio,n_nonzero_coef,n_top_candidates,random_state
+3.703633684100527,4.934051858996752,0.8930417228637542,0.9451549784643478,0.001,0.7,691,5000,42
