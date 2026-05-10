@@ -186,14 +186,6 @@ epigenetic-clock-reproduction/
 | `results/` | Full notebook outputs (mostly ignored) |
 | `results/public/` | Metrics CSVs and figure mirrors for documentation |
 
----
-
-## Future work
-
-- Raw **IDAT** ingestion and parity with Bioconductor preprocessing stacks.
-- Formal **Houseman / EpiDISH** comparisons and alternative reference panels.
-- **Harmonization** (e.g., ComBat on β) informed by cohort diagnostics.
-- Additional **external cohorts** and nested cross-validation where feasible.
 
 ---
 
