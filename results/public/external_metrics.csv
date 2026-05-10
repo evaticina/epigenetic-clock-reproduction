@@ -1,0 +1,2 @@
+cohort,n_samples_eval,n_overlap_cpgs,n_missing_training_cpgs_in_external,samples_dropped_nan_overlap_probes,MAE,RMSE,R2,Pearson_r
+GSE87571,515,5000,0,214,4.414899274184254,5.513453350362784,0.9304379878952441,0.983149736897123

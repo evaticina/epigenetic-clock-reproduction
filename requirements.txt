@@ -1,15 +1,15 @@
-# Epigenetic clock reproduction — Python 3.11
+# Epigenetic clock reproduction — Python 3.11+
 # Install: python -m venv .venv && .venv\Scripts\activate  (Windows)
 #          pip install -r requirements.txt
 #
-# Pins are major.minor.patch-compatible for reproducible scientific runs;
-# upgrade intentionally when validating the full notebook suite.
+# Listed packages are imported directly by notebooks or pulled as explicit pip install deps there.
+# Pin upgrades intentionally when re-validating the full notebook suite.
 
 # --- Core numerics & tables ---
 numpy==1.26.4
 pandas==2.2.3
 
-# --- Parquet I/O (used where notebooks/materialization expect pyarrow) ---
+# --- Parquet / Arrow I/O (notebooks reference pyarrow in pip installs) ---
 pyarrow==17.0.0
 
 # --- Statistics & ML ---
@@ -18,10 +18,15 @@ scikit-learn==1.5.2
 
 # --- Plotting ---
 matplotlib==3.9.2
+seaborn==0.13.2
 
-# --- GEO / methylation metadata ---
+# --- GEO ---
 GEOparse==2.0.3
 
-# --- Jupyter execution (kernels + classic notebook UI) ---
+# --- Serialization / spreadsheets ---
+joblib==1.4.2
+openpyxl==3.1.5
+
+# --- Jupyter (notebook UI; start with: jupyter notebook) ---
 ipykernel==6.29.5
 notebook==7.3.2

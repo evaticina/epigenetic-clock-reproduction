@@ -56,10 +56,12 @@ data/raw/*
 !data/raw/.gitkeep
 
 # Processed X/y/metadata — reproducible outputs of 01_data_loading.ipynb
+# Also includes model artifacts from 02 (scaler.joblib, elasticnet_model.joblib,
+# selected_cpgs.csv). Not committed — run 02 before notebooks 04 / 05.
 data/processed/*
 !data/processed/.gitkeep
 
-# Metrics, figures, enrichment tables — reproducible outputs of 02 / 03
+# Metrics, figures, enrichment tables — reproducible outputs of 02 / 03 / 04 / 05
 # Track only the lightweight publication bundle; ignore all other results/*.
 results/*
 !results/public/
@@ -81,3 +83,4 @@ Thumbs.db
 # -----------------------------------------------------------------------------
 # .env
 # *.local
+anaconda_projects/

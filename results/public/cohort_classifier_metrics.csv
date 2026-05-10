@@ -1,0 +1,3 @@
+model,roc_auc_holdout,accuracy_holdout,n_features,n_train,n_test
+logistic_regression_scaled,1.0,1.0,5000,878,293
+random_forest,0.9999527320854604,0.9965870307167235,5000,878,293
