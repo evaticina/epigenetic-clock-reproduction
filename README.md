@@ -143,7 +143,7 @@ From the repository root, start Jupyter:
 jupyter notebook
 ```
 
-Open `notebooks/01_data_loading.ipynb` and run all cells to download or refresh GEO-derived inputs and write `data/processed/` (including compressed `X` and `y`). Then run `02_model_training.ipynb`, then `03_biological_interpretation.ipynb`. Paths inside notebooks assume execution with the notebook’s default working directory (`notebooks/`), resolving the project root via `Path("..").resolve()`.
+Open `notebooks/01_data_loading.ipynb` and run all cells to download or refresh GEO-derived inputs and write `data/processed/` (including compressed `X` and `y`). Then run `02_model_training.ipynb`, then `03_biological_interpretation.ipynb`. Paths inside notebooks assume execution with the notebook’s default working directory (`notebooks/`), resolving the project root via `Path.cwd().parent`.
 
 ## Output files
 
